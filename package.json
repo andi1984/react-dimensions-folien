@@ -1,0 +1,27 @@
+{
+  "name": "react-dimensions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck deck.js",
+    "build:html": "mdx-deck build deck.js",
+    "build:pdf": "mdx-deck-export pdf deck.js"
+  },
+  "keywords": [
+    "MDX",
+    "React",
+    "Slides"
+  ],
+  "author": "Andreas Sander <mail@andi1984.de>",
+  "license": "ISC",
+  "devDependencies": {
+    "@mdx-deck/export": "^2.3.2",
+    "mdx-code": "^1.1.3",
+    "mdx-deck": "^2.3.2",
+    "mdx-deck-code-surfer": "^0.5.5",
+    "raw-loader": "^2.0.0",
+    "styled-components": "^4.2.0"
+  }
+}
