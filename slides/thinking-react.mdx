@@ -35,9 +35,48 @@ React.createElement(
 
 ---
 
-# Funktionale-
-# vs.
-# Klassen-Komponente
+# Komponenten…
 
 ---
 
+# … als Funktion:
+
+```js
+function ProfilePage(props) {
+  const handleClick = () => {
+    alert('Followed ' + props.user);
+  };
+
+  return (
+    <button onClick={handleClick}>Follow</button>
+  );
+}
+```
+
+---
+
+# … als Klasse:
+
+```js
+class ProfilePage extends React.Component {
+  handleClick = () => {
+    alert('Followed ' + props.user);
+  };
+
+  render() {
+    return <button onClick={this.handleClick}>Follow</button>;
+  }
+}
+```
+
+---
+
+# Thinking in React
+
+https://reactjs.org/docs/thinking-in-react.html
+
+---
+
+## Wie strukturieren?
+
+![Atomic Design](http://bradfrost.com/wp-content/uploads/2013/06/atomic-design.png)
