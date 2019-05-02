@@ -1,3 +1,5 @@
+import { Split } from "@mdx-deck/layouts"
+
 # React
 
 ## Am Anfang…
@@ -53,6 +55,8 @@ function ProfilePage(props) {
 }
 ```
 
+[Demo](https://codesandbox.io/s/r026mnm0w)
+
 ---
 
 # … als Klasse:
@@ -68,6 +72,23 @@ class ProfilePage extends React.Component {
   }
 }
 ```
+
+[Demo](https://codesandbox.io/s/oqbd6yynn)
+
+---
+
+# Klasse vs. Funktion (React < 16.8!)
+
+![Infografik](./slides/images/function-vs-class.png)
+
+---
+
+# Local state management
+
+- Lesen: `this.state`
+- Schreiben: `this.setState()`
+
+[Documentation](https://reactjs.org/docs/state-and-lifecycle.html#using-state-correctly)
 
 ---
 
@@ -97,3 +118,20 @@ https://reactjs.org/docs/thinking-in-react.html
 ## Wie strukturieren?
 
 ![Atomic Design](./slides/images/atomic-design.png)
+
+---
+
+# React Hooks
+
+[Hooks Documentation](https://reactjs.org/docs/hooks-intro.html)
+
+---
+# Klasse vs. Funktion (mit Hooks!)
+
+<Split>
+
+Was hat sich geändert? 
+
+![Infografik](./slides/images/function-vs-class.png)
+
+</Split>
